@@ -8,17 +8,17 @@ class Player
 
   def self.choose_team_joueur1(choice)
     if choice == "croix"
-      return "X"
+      return "X".red
     else 
-      return "○"
+      return "○".blue
     end
   end
 
   def self.choose_team_joueur2(choice)
     if choice == "croix"
-      return "○"
+      return "○".blue
     else 
-      return "X"
+      return "X".red
     end
   end
 end
